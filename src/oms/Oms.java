@@ -26,6 +26,10 @@ public abstract class Oms {
 		}
 	
 	}
+	
+	public void imprimirReporte(List<Paciente> listaPacientes) {
+		System.out.print(listaPacientes);
+	}
 }
 
 
